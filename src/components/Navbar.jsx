@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className='hidden md:flex items-center '>
                 <ul className='flex gap-8'>
                     <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Beranda</a></li>
-                    <li><a href="#blog" className='hover:text-[#fd3555] hover:font-medium'>Blog</a></li>
+                    <li><a href="#blog" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
                     <li><a href="#mitra" className='hover:text-[#fd3555] hover:font-medium'>Mitra</a></li>
                 </ul>
             </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className={toggle?'absolute z-10 p-4  bg-white w-full px-8 md:hidden border-b':'hidden'}>
             <ul>
                     <li className='p-4 hover:bg-gray-100'><a href="#hero">Beranda</a></li>
-                    <li className='p-4 hover:bg-gray-100'><a href="#blog">Blog</a></li>
+                    <li className='p-4 hover:bg-gray-100'><a href="#blog">Artikel</a></li>
                     <li className='p-4 hover:bg-gray-100'><a href="#mitra">Mitra</a></li>
                     {/* <div className='flex flex-col my-4 gap-4'>
                         <button className='border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
