@@ -1,5 +1,5 @@
 import React from 'react'
-import { logo } from '../assets'
+// import { logo } from '../assets'
 import {FaFacebookF,FaDribbble,FaLinkedinIn,FaInstagram,FaBehance} from 'react-icons/fa'
 
 const Footer = () => {
@@ -8,7 +8,8 @@ const Footer = () => {
         <div className='md:max-w-[1480px] m-auto grid md:grid-cols-3 max-[780px]:grid-cols-2  gap-8 max-w-[600px]  px-4 md:px-0'>
             
             <div className='col-span-2'>
-                <img src={logo} className="h-[25px]" />
+                {/* <img src={logo} className="h-[25px]" /> */}
+                <h2 className='font-[Exo] font-bold text-2xl tracking-[6px] text-[#325ccc]'>LOGO</h2>
                 <h3 className='text-2xl font-bold mt-10'>Contact Us</h3>
                 <h3 className='py-2 text-[#6D737A]'>Call : +123 400 123</h3>
                 <h3 className='py-2 text-[#6D737A]'>Praesent nulla massa, hendrerit <br></br> vestibulum gravida in, feugiat auctor felis.</h3>

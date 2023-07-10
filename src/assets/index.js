@@ -1,6 +1,6 @@
 import hamburgerMenu from "./hamburgerMenu.svg";
 import close from "./close.svg";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import lock from "./lock.svg";
 import heroImg from "./heroImg.png";
 import companyLogo1 from "./company-logo-1.png";
@@ -16,7 +16,7 @@ import cta from "./cta.png"
 export {
   hamburgerMenu,
   close,
-  logo,
+  // logo,
   lock,
   heroImg,
   companyLogo1,
