@@ -26,8 +26,10 @@ const Footer = () => {
                 <h3 className='text-2xl font-bold'>Explore</h3>
                 <ul className='py-6 text-[#6D737A]'>
                     <li className='py-2'>Beranda</li>
+                    <li className='py-2'>Tentang Kami</li>
                     <li className='py-2'>Artikel</li>
                     <li className='py-2'>Mitra</li>
+                    <li className='py-2'>Bantuan</li>
                 </ul>
             </div>
 
