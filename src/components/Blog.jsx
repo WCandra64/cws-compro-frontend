@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card'
+import  {BsChevronBarRight} from 'react-icons/bs'
 import { blog } from '../data/Artikel';
 
 const Blog = () => {
@@ -12,15 +13,18 @@ const Blog = () => {
               <p className='text-[#6D737A]'>Baca artikel terbaru kami.</p>
             </div>
             
-            <div className='flex grid grid-cols-4'>
+            <div className='flex grid grid-cols-3 relative mr-12'>
               {blog.slice(-3).map((artikel, i) => (
                   <div key={i} className='hover:cursor-pointer'>
                     <Card artikel={artikel} />
                   </div>
                 )
               )}
-              <div className='relative' onClick={() => window.location.href = "#"}>
-                <p className='absolute top-[45%] hover:cursor-pointer'>Artikel Lainnya..</p>
+              <div className='hover:cursor-pointer absolute right-[-3rem] h-full w-[12vw] more-background drop-shadow hover:drop-shadow-lg text-slate-700 hover:text-[#325ccc]' onClick={() => window.location.href = "#"}>
+                <div className='absolute top-[35%] w-full'>
+                  <BsChevronBarRight className='m-auto text-6xl'/>
+                  <h1 className='pt-3 text-center text-sm mx-2 more-text'>Temukan artikel lainnya..</h1>
+                </div>
               </div>
             </div>
             

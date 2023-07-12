@@ -11,6 +11,18 @@ html {
   z-index: 3!important;
 }
 
+
+.more-background{
+  background: linear-gradient(90deg, rgba(238,238,238,0.9) 20%, rgba(255,255,255,1) 100%);
+}
+.more-background:hover{
+  background: rgba(238,238,238,0.98);
+}
+
+.more-background:hover .more-text{
+  font-weight: 600;
+}
+
 /* 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
