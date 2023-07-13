@@ -1,6 +1,6 @@
 const Card = ({artikel}) => {
   return (
-    <div className='z-2 bg-slate-50 hover:bg-white drop-shadow-md hover:drop-shadow-xl rounded-2xl mr-2 my-4 hover:cursor-pointer' onClick={() => window.location.href = artikel.link}>
+    <div className='z-2 bg-slate-50 hover:bg-white drop-shadow-md hover:drop-shadow-xl rounded-2xl mr-2 my-4 hover:cursor-pointer overflow-hidden' onClick={() => window.location.href = artikel.link}>
         <img src={artikel.linkImg} 
                 className="h-40 w-full object-cover"
         
