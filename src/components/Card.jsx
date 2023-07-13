@@ -1,6 +1,6 @@
 const Card = ({artikel}) => {
   return (
-    <div className='z-2 bg-slate-50 hover:bg-white drop-shadow-md hover:drop-shadow-xl overflow-hidden rounded-2xl mr-2  my-4' onClick={() => window.location.href = artikel.link}>
+    <div className='z-2 bg-slate-50 hover:bg-white drop-shadow-md hover:drop-shadow-xl rounded-2xl mr-2 my-4 hover:cursor-pointer' onClick={() => window.location.href = artikel.link}>
         <img src={artikel.linkImg} 
                 className="h-40 w-full object-cover"
         
@@ -10,7 +10,7 @@ const Card = ({artikel}) => {
             <p className='text-[#325ccc] font-medium text-xs truncate'>{artikel.date}</p>
         </div>
         <div className="p-5 pt-3 border border-b ">
-          <p className='line-clamp-2'>{artikel.content}</p>
+          <p className='line-clamp-2 xl:line-clamp-3'>{artikel.content}</p>
         </div>
 
         {/* <div className='absolute top-0 bg-white m-3 px-2 py-[2.5px] rounded font-bold'>

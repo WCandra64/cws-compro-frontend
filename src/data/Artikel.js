@@ -48,7 +48,7 @@ export const blog = [
       id: 6,
       title: 'Minecraft',
       date:'12/05/2023',
-      content: 'Lorem ipsum dolor sit amet, adipiscing elit',
+      content: 'Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit.',
       link: '#',
       linkImg:
         'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/minecraft-switch/hero?_a=AJADJWI0',
@@ -57,7 +57,7 @@ export const blog = [
       id: 7,
       title: 'Mario + Rabbids® Kingdom Battle',
       date:'29/05/2023',
-      content: 'Lorem ipsum dolor sit amet, adipiscing elit',
+      content: 'Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit.',
       link: '#',
       linkImg:
         'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0',
@@ -66,7 +66,7 @@ export const blog = [
       id: 8,
       title: 'Unravel Two',
       date:'01/07/2023',
-      content: 'Lorem ipsum dolor sit amet, adipiscing elit',
+      content: 'Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit. Lorem ipsum dolor sit amet, adipiscing elit.',
       link: '#',
       sale: 63,  
       linkImg:
