@@ -9,7 +9,9 @@ const Card = ({artikel}) => {
             <h1 className='pt-1 truncate text-lg'>{artikel.title}</h1>
             <p className='text-[#325ccc] font-medium text-xs truncate'>{artikel.date}</p>
         </div>
-        <p className='p-5 pt-3 border border-b'>{artikel.content}</p>
+        <div className="p-5 pt-3 border border-b ">
+          <p className='line-clamp-2'>{artikel.content}</p>
+        </div>
 
         {/* <div className='absolute top-0 bg-white m-3 px-2 py-[2.5px] rounded font-bold'>
             {artikel.category}
