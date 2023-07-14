@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = ()=> setToggle(!toggle)
 
   return (
-    <div className='w-full h-[80px] bg-white border-b sticky top-0 z-10'>
+    <div className='w-full h-[80px] bg-white border-b-2 sticky top-0 z-10'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center px-20'>
             
             {/* <img src={logo} className="h-[25px]" /> */}
@@ -17,7 +17,7 @@ const Navbar = () => {
                 <ul className='flex gap-8'>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Beranda</a></li>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
-                    <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
+                    <li><a href="/blogs" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Mitra</a></li>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Bantuan</a></li>
                 </ul>
