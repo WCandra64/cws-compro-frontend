@@ -15,9 +15,9 @@ const Footer = () => {
                 <h3 className='py-2 text-[#6D737A]'>Jalan Hayam Wuruk 135<br></br>Denpasar</h3>
                 <h3 className='py-2 text-[#363A3D]'>Email: admin@cws.com</h3>
                 <div className='flex gap-4 py-4'>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaFacebookF size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaLinkedinIn size={25} style={{color:'#4DC39E'}} /></div>
-                        <div className='p-4 bg-[#E9F8F3] rounded-xl'><FaInstagram size={25} style={{color:'#4DC39E'}} /></div>
+                        <div className='p-4 bg-[#cfe8ff] rounded-xl'><FaFacebookF size={25} style={{color:'#235c8f'}} /></div>
+                        <div className='p-4 bg-[#cfe8ff] rounded-xl'><FaLinkedinIn size={25} style={{color:'#235c8f'}} /></div>
+                        <div className='p-4 bg-[#cfe8ff] rounded-xl'><FaInstagram size={25} style={{color:'#235c8f'}} /></div>
                 </div>
 
             </div>
@@ -25,11 +25,11 @@ const Footer = () => {
             <div>
                 <h3 className='text-2xl font-bold'>Explore</h3>
                 <ul className='py-6 text-[#6D737A]'>
-                    <li className='py-2'>Beranda</li>
-                    <li className='py-2'>Tentang Kami</li>
-                    <li className='py-2'>Artikel</li>
-                    <li className='py-2'>Mitra</li>
-                    <li className='py-2'>Bantuan</li>
+                    <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Beranda</a></li>
+                    <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
+                    <li><a href="#blog" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
+                    <li><a href="#mitra" className='hover:text-[#fd3555] hover:font-medium'>Mitra</a></li>
+                    <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Bantuan</a></li>
                 </ul>
             </div>
 

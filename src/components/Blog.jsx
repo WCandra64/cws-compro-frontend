@@ -31,7 +31,7 @@ const Blog = () => {
             </div>
             
             
-            <div className='w-fit rounded-md bg-[#11aaff] hover:bg-[#325ccc] hover:drop-shadow-[1px_4px_4px_rgba(0,0,0,0.3)] hover:cursor-pointer py-2 px-12 m-auto mt-4 text-center' onClick={() => window.location.href = "#"}>
+            <div className='w-fit rounded-md bg-[#11aaff] hover:bg-[#325ccc] hover:drop-shadow-[1px_4px_4px_rgba(0,0,0,0.3)] hover:cursor-pointer py-2 px-12 m-auto mt-4 text-center' onClick={() => window.location.href = "/blogs"}>
               <span className='text-white font-medium '>Artikel Lainnya</span>
             </div>
             
