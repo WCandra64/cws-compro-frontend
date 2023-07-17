@@ -16,7 +16,7 @@ const Navbar = () => {
             <div className='hidden md:flex items-center '>
                 <ul className='flex gap-8'>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Beranda</a></li>
-                    <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
+                    <li><a href="/tentang" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
                     <li><a href="/blogs" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Mitra</a></li>
                     <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Bantuan</a></li>

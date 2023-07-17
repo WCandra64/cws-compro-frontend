@@ -23,6 +23,10 @@ html {
   font-weight: 600;
 }
 
+.footer-nav li{
+  padding-top: .2rem;
+}
+
 /* 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
