@@ -3,7 +3,7 @@ import React from 'react';
 
 const NoPage = () => {
   return (
-    <div>
+    <div className='text-center font-bold text-2xl my-[30vh]'>
       404 Page Not Found.
     </div>
   )
