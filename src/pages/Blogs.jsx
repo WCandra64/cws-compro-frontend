@@ -4,15 +4,15 @@ import { blog } from '../data/Artikel';
 
 const Blogs = () => {
   return (
-    <div className='py-[4vh]'>
-      <div className='py-[20vh] text-center'>
+    <div className='py-[10vh]'>
+      <div className='pt-[8vh] pb-[15vh] text-center'>
         <h1 className='pb-2 font-bold text-2xl text-[#11aaff]'>Blog</h1>
         <span className='text-md'>Baca artikel-artikel terbaru kami.</span>
       </div>
       <div className=''>
         {blog.toReversed().map((artikel, i) => (
-            <div key={i} className='flex m-auto max-w-[80vw] text-ellipsis my-6 border z-2 bg-slate-50 hover:bg-white drop-shadow-md hover:drop-shadow-xl rounded-2xl hover:cursor-pointer '>
-              {/* <Card artikel={artikel} /> */}
+            <div key={i}>
+              <div className='flex m-auto max-w-[80vw] text-ellipsis my-6 border z-2 bg-slate-50 hover:bg-white drop-shadow-md hover:drop-shadow-xl rounded-2xl hover:cursor-pointer ' onClick={() => window.location.href = "/blogs/"+artikel.id}>
                 <img className='w-[50%]' src={artikel.linkImg} alt={artikel.title} />
                 <div className='w-[50%] py-4 px-5'>
                   <div className='pb-1'>
@@ -23,6 +23,8 @@ const Blogs = () => {
                     <p className='line-clamp-6'>{artikel.content}</p>
                   </div>
                 </div>
+              </div>
+              {/* <Card artikel={artikel} /> */}
             </div>
           )
         )}
