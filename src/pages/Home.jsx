@@ -1,15 +1,14 @@
 import React from 'react';
-import { Hero, Navbar, Mitra, Blog } from '../components';
+import { Hero, Mitra, Services } from '../components';
 // import './App.css'
 
 const Home = () => {
   return (
     <div>
-      {/* <Navbar /> */}
       <Hero />
-      <Blog />
+      <Services />
+      {/* <Blog /> */}
       <Mitra/>
-      {/* <Footer /> */}
     </div>
   )
 }

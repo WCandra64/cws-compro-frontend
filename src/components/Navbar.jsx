@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import {hamburgerMenu, close} from '../assets'
+import  {BsChevronDown} from 'react-icons/bs'
+import {hamburgerMenu, close, logo} from '../assets'  
+import { Link } from 'react-router-dom' 
 
 const Navbar = () => {
 
@@ -10,16 +12,15 @@ const Navbar = () => {
     <div className='w-full h-[80px] bg-white border-b-2 sticky top-0 z-10'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center px-20'>
             
-            {/* <img src={logo} className="h-[25px]" /> */}
-            <h2 className='font-[Exo] font-bold text-2xl tracking-[6px] text-[#325ccc]'>LOGO</h2>
+            <img src={logo} className="h-[35px]" />
+            {/* <h2 className='font-[Exo] font-bold text-2xl tracking-[6px] text-[#325ccc]'>LOGO</h2> */}
             
             <div className='hidden md:flex items-center '>
                 <ul className='flex gap-8'>
-                    <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Beranda</a></li>
-                    <li><a href="/tentang" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
-                    <li><a href="/blogs" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
-                    <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Mitra</a></li>
-                    <li><a href="/" className='hover:text-[#fd3555] hover:font-medium'>Bantuan</a></li>
+                    <li><Link to="/" className='hover:text-[#fd3555] hover:font-medium'>Beranda</Link></li>
+                    <li><Link to="/layanan" className='hover:text-[#fd3555] hover:font-medium'>Layanan</Link></li>
+                    <li><Link to="/sertifikasi" className='hover:text-[#fd3555] hover:font-medium flex'>Sertifikasi <BsChevronDown className='ml-2 my-auto text-sm'/> </Link></li>
+                    <li><Link to="/tentang" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</Link></li>
                 </ul>
             </div>
 

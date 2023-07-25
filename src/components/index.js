@@ -2,6 +2,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Mitra from "./Mitra";
 import Blog from "./Blog";
+import Services from "./Services";
 // import Achievement from "./Achievement";
 // import Categories from "./Categories";
 // import Feedback from "./Feedback";
@@ -10,4 +11,4 @@ import Footer from "./Footer";
 
 
 
-export {Navbar, Hero, Mitra, Blog, Footer}
+export {Navbar, Hero, Mitra, Blog, Services, Footer}

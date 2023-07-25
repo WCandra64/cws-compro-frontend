@@ -1,5 +1,5 @@
 import React from 'react'
-// import { logo } from '../assets'
+import { logo } from '../assets'
 import {FaFacebookF,FaDribbble,FaLinkedinIn,FaInstagram,FaBehance} from 'react-icons/fa'
 
 const Footer = () => {
@@ -24,15 +24,15 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <h2 className='font-[Exo] font-bold text-2xl tracking-[6px] text-[#325ccc] pb-6'>LOGO</h2>
+                    <img src={logo} className="h-[7vh] mb-6" />
+                    {/* <h2 className='font-[Exo] font-bold text-2xl tracking-[6px] text-[#325ccc] pb-6'>LOGO</h2> */}
 
                     <h3 className='text-2xl font-bold'>Explore</h3>
                     <ul className='py-3 text-[#6D737A] footer-nav'>
                         <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Beranda</a></li>
-                        <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
-                        <li><a href="#blog" className='hover:text-[#fd3555] hover:font-medium'>Artikel</a></li>
-                        <li><a href="#mitra" className='hover:text-[#fd3555] hover:font-medium'>Mitra</a></li>
-                        <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Bantuan</a></li>
+                        <li><a href="#hero" className='hover:text-[#fd3555] hover:font-medium'>Layanan</a></li>
+                        <li><a href="#blog" className='hover:text-[#fd3555] hover:font-medium'>Serifikasi</a></li>
+                        <li><a href="#mitra" className='hover:text-[#fd3555] hover:font-medium'>Tentang Kami</a></li>
                     </ul>
                 </div>
 
