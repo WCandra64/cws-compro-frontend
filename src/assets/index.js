@@ -11,23 +11,21 @@ import blogImg1 from "./blog-1.png";
 import achievement from "./achievement.png";
 import avatar from "./avatar.png";
 import quotationMark from "./quotationMark.png";
-import cta from "./cta.png"
+import cta from "./cta.png";
 
 export {
-  hamburgerMenu,
-  close,
-  logo,
-  lock,
-  heroImg,
-  companyLogo1,
-  companyLogo2,
-  companyLogo3,
-  companyLogo4,
-  blogImg1,
-  achievement,
-  avatar,
-  quotationMark,
-  cta
-
-
+    hamburgerMenu,
+    close,
+    logo,
+    lock,
+    heroImg,
+    companyLogo1,
+    companyLogo2,
+    companyLogo3,
+    companyLogo4,
+    blogImg1,
+    achievement,
+    avatar,
+    quotationMark,
+    cta,
 };
