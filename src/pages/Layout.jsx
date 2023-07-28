@@ -1,17 +1,17 @@
 import React from "react";
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const Layout = () => { 
+const Layout = () => {
     return (
         <div>
             <Navbar />
             {/* <div className="min-h-[80vh]"> */}
-                <Outlet />
+            <Outlet />
             {/* </div> */}
             {/* <div className="min-h-[20vh]"> */}
-                <Footer />
+            <Footer />
             {/* </div> */}
         </div>
     );
