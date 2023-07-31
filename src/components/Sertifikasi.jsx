@@ -20,7 +20,7 @@ const Services = () => {
                     {sertifikasi.map((sertif, i) => (
                         <div key={i}>
                             <div
-                                className="z-2 hover:bg-slate-100 bg-white drop-shadow-md hover:drop-shadow-none hover:border rounded-2xl mr-2 my-4 hover:cursor-pointer overflow-hidden"
+                                className="z-2 hover:bg-slate-100 bg-white drop-shadow-md hover:drop-shadow-none hover:border rounded-2xl mr-2 my-4 mb-1 hover:mb-0 hover:cursor-pointer overflow-hidden"
                                 onClick={() =>
                                     (window.location.href =
                                         "/sertifikasi/" + artikel.id)
