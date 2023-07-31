@@ -68,9 +68,25 @@ html {
     right: -4rem;
 }
 
-.nav-active {
+.active {
     color: #fd3555;
     font-weight: 600;
+}
+
+.nav-list:hover .nav-text, .drop-list:hover .drop-text{
+    color: #fd3555;
+}
+
+.drop-active{
+    color: #fd3555;
+}
+
+.menu-items{
+    width: calc(150% + 3rem);
+}
+
+.drop-list:hover{
+    cursor: pointer;
 }
 /* 
 :root {

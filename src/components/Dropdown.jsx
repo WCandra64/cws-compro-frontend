@@ -4,14 +4,17 @@ import { Link } from "react-router-dom";
 const Dropdown = ({ submenus, dropdown }) => {
     return (
         <ul
-            className={`bg-white absolute top-[80px] ${
+            className={`menu-items bg-white absolute top-[50px] left-[-2.5rem] py-2 border-x-2 border-b-2 rounded-b-md ${
                 dropdown ? "" : "hidden"
             }`}
         >
             {submenus.map((submenu, index) => (
-                <li key={index} className="menu-items">
-                    <Link to={submenu.url}>{submenu.title}</Link>
-                </li>
+                <div key={index}>
+                    <li className="drop-list px-6 py-1" onClick={() => (window.location.href = submenu.url)}>
+                        <span className="drop-text text-sm">{submenu.title}</span>
+                    </li>
+                </div>
+                
             ))}
         </ul>
     );
