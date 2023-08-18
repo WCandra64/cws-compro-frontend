@@ -61,20 +61,20 @@ const Footer = () => {
                                     Beranda
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     href="#hero"
                                     className="hover:text-[#fd3555] hover:font-medium"
                                 >
                                     Layanan
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a
                                     href="#blog"
                                     className="hover:text-[#fd3555] hover:font-medium"
                                 >
-                                    Serifikasi
+                                    Sertifikasi
                                 </a>
                             </li>
                             <li>

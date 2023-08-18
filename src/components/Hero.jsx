@@ -9,10 +9,10 @@ const Hero = () => {
             id="hero"
         >
             {/* <div className="md:max-w-[1480px] m-auto max-w-[600px] px-4 md:px-0"> */}
-            <div className="bg-slate-900/50 w-full h-full py-24 px-16">
+            <div className="bg-slate-900/60 w-full h-full py-24 px-16">
                 {/* <div className='flex flex-col justify-start gap-4'> */}
                 <div className="mt-[40vh]">
-                    <h1 className="font-bold text-4xl md:text-8xl text-white">
+                    <h1 className="font-black text-6xl md:text-8xl text-white">
                         Jembatan <br /> Sukses Anda
                     </h1>
                     {/* <p className='py-2 text-2xl text-[#fd3555] font-medium'>LOREM TO IPSUM</p>

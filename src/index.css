@@ -31,10 +31,9 @@ html {
 }
 
 .slides-container {
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
-/* WebKit */
 .slides-container::-webkit-scrollbar {
     width: 0;
     height: 0;
@@ -87,6 +86,14 @@ html {
 
 .drop-list:hover{
     cursor: pointer;
+}
+
+.card-daftar:hover h2{
+    color: black !important;
+}
+
+.card-daftar:hover h1{
+    color: #2CACE4;
 }
 /* 
 :root {

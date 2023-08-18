@@ -12,33 +12,36 @@ const Services = () => {
                         SERTIFIKASI
                     </h1>
                     <h1 className="text-3xl font-bold text-center">
-                        <span className="text-[#11aaff]">Sertifikasi Internasional</span> yang kami lakukan
+                        <span className="text-[#2CACE4]">Sertifikasi Internasional</span> yang kami lakukan
                     </h1>
                 </div>
 
-                <div className="md:grid md:grid-cols-4 hidden gap-4">
-                    {sertifikasi.map((sertif, i) => (
-                        <div key={i}>
-                            <div
-                                className="z-2 hover:bg-slate-100 bg-white drop-shadow-md hover:drop-shadow-none hover:border rounded-2xl mr-2 my-4 mb-1 hover:mb-0 hover:cursor-pointer overflow-hidden"
-                                onClick={() =>
-                                    (window.location.href =
-                                        "/sertifikasi/" + artikel.id)
-                                }
-                            >
-                                <img
-                                    src={"../src/assets/" + sertif.img}
-                                    className="h-40 w-full object-contain p-4"
-                                />
-                                <div className="px-5 pt-2 pb-4">
-                                    <h1 className="pt-1 text-lg font-medium">
-                                        {sertif.title} <br />
-                                    </h1>
+                <div>
+                    <div className="md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-sm md:max-w-7xl mx-auto">
+                        {sertifikasi.map((sertif, i) => (
+                            <div key={i} className="flex">
+                                <div
+                                    className="z-2 hover:bg-slate-100 bg-white drop-shadow-md hover:drop-shadow-none hover:border rounded-2xl mr-2 my-4 p-[1px] hover:p-0 hover:cursor-pointer overflow-hidden flex flex-col w-full"
+                                    onClick={() =>
+                                        (window.location.href = sertif.link)
+                                    }
+                                >
+                                    <img
+                                        src={"../src/assets/" + sertif.img}
+                                        className="h-40 w-full object-contain p-4"
+                                    />
+                                    <div className="px-5 pt-2 pb-4 grow">
+                                        <h1 className="pt-1 text-lg font-medium">
+                                            {sertif.title} <br />
+                                        </h1>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
+                    
                 </div>
+
             </div>
         </div>
     );

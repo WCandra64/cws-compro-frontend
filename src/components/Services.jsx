@@ -20,14 +20,14 @@ const Services = () => {
     }, []);
 
     return (
-        <div className="w-full pb-8 px-20">
+        <div className="w-full pb-8 px-20" id="layanan">
             <div className="md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0">
                 <div className="pt-16 pb-10">
                     <h1 className=" mt-10 text-center text-slate-500">
                         LAYANAN
                     </h1>
                     <h1 className="text-3xl font-bold text-center">
-                        <span className="text-[#11aaff]">Layanan</span> terbaik yang kami sediakan
+                        <span className="text-[#2CACE4]">Layanan</span> terbaik yang kami sediakan
                     </h1>
                 </div>
 
@@ -53,11 +53,7 @@ const Services = () => {
                             <div
                                 key={i}
                                 className={
-                                    "slide z-2 bg-slate-900 drop-shadow-md hover:opacity-90 mx-[1%] my-4 hover:cursor-pointer overflow-hidden relative flex-[1_0_23%]"
-                                }
-                                onClick={() =>
-                                    (window.location.href =
-                                        "/blogs/" + service.id)
+                                    "slide z-2 bg-slate-900 drop-shadow-md hover:opacity-90 mx-[1%] my-4 overflow-hidden relative flex-[1_0_23%]"
                                 }
                             >
                                 {/* <div> */}
