@@ -26,13 +26,13 @@ export const sertifikasi = [
     {
         id: 5,
         title: "Certified Forensic Investigator",
-        img: "cert-foresec.png",
+        img: "forensic.png",
         link: "sertifikasi-fsfi"
     },
     {
         id: 3,
         title: "Certified Computer Hacking",
-        img: "cert-foresec.png",
+        img: "fcch-removebg-preview.png",
         link: "sertifikasi-fsch"
     },
 ];

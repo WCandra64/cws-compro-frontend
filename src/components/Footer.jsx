@@ -17,10 +17,7 @@ const Footer = () => {
                         {/* <img src={logo} className="h-[25px]" /> */}
                         <h3 className="text-2xl font-bold">Contact Us</h3>
                         <p className="pt-6 pb-1 text-[#363A3D]">
-                            Call : +6281234567890
-                        </p>
-                        <p className="pt-1 text-[#363A3D]">
-                            Email : admin@cws.com
+                            Call : 0857-3915-3620
                         </p>
                         <p className="pt-4 text-[#363A3D]">
                             Jalan Hayam Wuruk 135<br></br>Denpasar
@@ -120,7 +117,7 @@ const Footer = () => {
             </div>
 
             <div className="text-center font-light text-xs bg-slate-800 text-white py-2">
-                Copyright &copy; 2023 PT. Cahaya Wahana Sejahtera
+                Copyright &copy; 2023 PT Cahaya Wahana Sejahtera
             </div>
         </div>
     );

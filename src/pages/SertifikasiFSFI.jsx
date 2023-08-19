@@ -10,7 +10,7 @@ const SertifikasiFSFI = () => {
                 </h1>
             </div>
 
-            <img src="../src/assets/cert-foresec.png" alt="Logo FS" className="m-auto pb-10 w-96"/>
+            <img src="../src/assets/forensic.png" alt="Logo FS" className="m-auto pb-10 w-96"/>
 
             <div className="">
                 <p>

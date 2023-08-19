@@ -10,7 +10,7 @@ const SertifikasiFSCH = () => {
                 </h1>
             </div>
 
-            <img src="../src/assets/cert-foresec.png" alt="Logo FS" className="m-auto pb-10 w-96"/>
+            <img src="../src/assets/fcch-removebg-preview.png" alt="Logo FS" className="m-auto pb-10 w-96"/>
 
             <div className="">
                 <p>
