@@ -12,6 +12,8 @@ import SertifikasiMOS from "./pages/SertifikasiMOS";
 import SertifikasiLO from "./pages/SertifikasiLO";
 import SertifikasiFS from "./pages/SertifikasiFS";
 import SertifikasiPASAS from "./pages/SertifikasiPASAS";
+import SertifikasiFSFI from "./pages/SertifikasiFSFI";
+import SertifikasiFSCH from "./pages/SertifikasiFSCH";
 
 const App = () => {
     return (
@@ -23,6 +25,9 @@ const App = () => {
                     <Route path={"sertifikasi-lo"} element={<SertifikasiLO />} />
                     <Route path={"sertifikasi-fs"} element={<SertifikasiFS />} />
                     <Route path={"sertifikasi-mos"} element={<SertifikasiMOS />} />
+                    <Route path={"sertifikasi-fsns"} element={<SertifikasiFS />} />
+                    <Route path={"sertifikasi-fsfi"} element={<SertifikasiFSFI />} />
+                    <Route path={"sertifikasi-fsch"} element={<SertifikasiFSCH />} />
                     {/* <Route path={"blogs"} element={<Blogs />} />
                     <Route path={"blogs/:idArtikel"} element={<Artikel />} /> */}
                     <Route path={"tentang"} element={<Tentang />} />
