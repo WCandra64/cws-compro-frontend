@@ -5,7 +5,7 @@ import { sertifikasi } from "../data/Sertifikasi";
 
 const Services = () => {
     return (
-        <div className="w-full pb-24 px-20">
+        <div className="w-full pb-24 px-20" id="sertifikasi">
             <div className="md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0">
                 <div className="pt-16 pb-10">
                     <h1 className=" mt-10 text-center text-slate-500">

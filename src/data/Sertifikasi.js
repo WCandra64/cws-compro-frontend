@@ -15,12 +15,24 @@ export const sertifikasi = [
         id: 3,
         title: "Certified Networking Security",
         img: "cert-foresec.png",
-        link: "sertifikasi-fs"
+        link: "sertifikasi-fsns"
     },
     {
         id: 4,
-        title: "Microsoft Office Specialist",
+        title: "Microsoft Office Specialist in Excel",
         img: "cert-mos.png",
         link: "sertifikasi-mos"
+    },
+    {
+        id: 5,
+        title: "Certified Forensic Investigator",
+        img: "cert-foresec.png",
+        link: "sertifikasi-fsfi"
+    },
+    {
+        id: 3,
+        title: "Certified Computer Hacking",
+        img: "cert-foresec.png",
+        link: "sertifikasi-fsch"
     },
 ];

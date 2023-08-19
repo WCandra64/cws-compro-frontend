@@ -71,7 +71,7 @@ const Footer = () => {
                             </li> */}
                             <li>
                                 <a
-                                    href="#blog"
+                                    href="/#sertifikasi"
                                     className="hover:text-[#fd3555] hover:font-medium"
                                 >
                                     Sertifikasi
@@ -79,7 +79,7 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a
-                                    href="#mitra"
+                                    href="/tentang"
                                     className="hover:text-[#fd3555] hover:font-medium"
                                 >
                                     Tentang Kami
