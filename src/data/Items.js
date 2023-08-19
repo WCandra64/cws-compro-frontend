@@ -21,11 +21,19 @@ export const menuItems = [
             },
             {
                 title: "Network Security",
-                url: "sertifikasi-fs",
+                url: "sertifikasi-fsns",
             },
             {
                 title: "Microsoft Office Specialist",
                 url: "sertifikasi-mos",
+            },
+            {
+                title: "Forensic Investigator",
+                url: "sertifikasi-fsfi",
+            },
+            {
+                title: "Computer Hacking",
+                url: "sertifikasi-fsch",
             },
         ],
     },

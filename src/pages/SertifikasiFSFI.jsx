@@ -64,7 +64,7 @@ const SertifikasiFSFI = () => {
                     <div
                         className="card-daftar bg-white drop-shadow-lg hover:drop-shadow-xl border-gray-500 hover:border-yellow-400 border-2 rounded-2xl overflow-hidden w-fit py-6 ml-auto mr-auto md:mr-0 my-1 hover:cursor-pointer"
                         onClick={() =>
-                            (window.location.href = "#")
+                            (window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSd4KChOZ8yIDL4GcivUarxJ0yu-Spu7qjfB18f_mY160YLG4w/viewform")
                         }
                     >
                         <div className="px-5 pt-2 pb-4 text-center">
@@ -83,7 +83,7 @@ const SertifikasiFSFI = () => {
                     <div
                         className="card-daftar bg-white drop-shadow-lg hover:drop-shadow-xl border-gray-500 hover:border-yellow-400 border-2 rounded-2xl overflow-hidden w-fit py-6 ml-auto mr-auto md:ml-0 mt-8 md:my-1 hover:cursor-pointer"
                         onClick={() =>
-                            (window.location.href = "#")
+                            (window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfEnTPUMiTAkD_rQ3vtUno6S06jGBZ6XsUZFgIm8up9ZoAWKQ/viewform")
                         }
                     >
                         <div className="px-5 pt-2 pb-4 text-center">
